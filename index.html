@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-62</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar-inverse my_navbar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#gif">Photo Gallery</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li> <a href="#gif">Gif view</a></li>
+                <li> <a href="#grid">Grid Gallery</a></li>
+                <li> <a href="#slididng">Sliding Gallery</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="container">
+        <h1>Photo Gallery</h1>
+        <div class="line"></div>
+        <br> <br> <br>
+        <section id="gif">
+            <h2>Gif view</h2>
+            <div class="line"></div>
+            <br> <br> <br>
+            <img src="the-avengers-logo-gif.gif">
+        </section>
+        <br> <br>
+
+        <section id="grid">
+            <h2>Grid View</h2>
+            <div class="line"></div>
+            <div class="di" onclick="divalert()">
+
+                <img src="53a97945-8758-4c3e-a800-0a6ddc0c8ab9-535069688d2c97266a5749dfd7986c58dbb7916d.jpg">
+                <img src="maxresdefault.jpg">
+                <img src="BestClips.png">
+                <img src="avengers-tony-stark-iron-man-movie-hd-wallpaper-2880x1800-1920x1080.jpg">
+            </div>
+
+            <div class="di" onclick="divalert2()">
+
+                <img src="thanos-avengers-infinity.jpg">
+                <img src="1463043093-thor-chris-hemsworth-dark-world.jpg">
+                <img src="gamora.webp">
+                <img src="Capture.JPG">
+                
+                <h4>Click on the grid Images to know about each other</h4>
+            </div>
+        </section>
+
+        <section id="sliding">
+            <h2>Sliding Gallery</h2>
+            <div class="line"></div>
+            <div id="my_carousel" class="carousel slide">
+                <ol class="carousel-indicators">
+                    <li data-target="#my_carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#my_carousel" data-slide-to="1"></li>
+                    <li data-target="#my_carousel" data-slide-to="2"></li>
+                    <li data-target="#my_carousel" data-slide-to="3"></li>
+                    <li data-target="#my_carousel" data-slide-to="4"></li>
+                    <li data-target="#my_carousel" data-slide-to="5"></li>
+                    <li data-target="#my_carousel" data-slide-to="6"></li>
+                    <li data-target="#my_carousel" data-slide-to="7"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="53a97945-8758-4c3e-a800-0a6ddc0c8ab9-535069688d2c97266a5749dfd7986c58dbb7916d.jpg" class="img-responsive" style="width: 100%">
+                        <div class="carousel-caption">
+                            <h3>Captain America</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="maxresdefault.jpg" class="img-responsive" style="width: 100%">
+                        <div class="carousel-caption">
+                            <h3>Black Panther</h3>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="BestClips.png" class="img-responsive" style="width: 100%">
+                        <div class="carousel-caption">
+                            <h3>The Incredible Hulk</h3>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="avengers-tony-stark-iron-man-movie-hd-wallpaper-2880x1800-1920x1080.jpg" class="img-responsive" style="width: 100%">
+                        <div class="carousel-caption">
+                            <h3>Iron Man</h3>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="thanos-avengers-infinity.jpg" class="img-responsive" style="width: 100%">
+                        <div class="carousel-caption">
+                            <h3>Thanos</h3>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="1463043093-thor-chris-hemsworth-dark-world.jpg" class="img-responsive" style="width: 100%">
+                        <div class="carousel-caption">
+                            <h3>Thor</h3>
+                        </div>
+                    </div>
+
+
+                    <div class="item">
+                        <img src="gamora.webp" class="img-responsive" style="width: 100%">
+                        <div class="carousel-caption">
+                            <h3>Gamora (Guardians Of The Galaxy)</h3>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="Capture.JPG" class="img-responsive" style="width: 100%">
+                        <div class="carousel-caption">
+                            <h3>Captain Marvel</h3>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#my_carousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#my_carousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+
+
+
+
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+    </div>
+</body></html>

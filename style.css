@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+}
+
+img {
+    width: 1200px;
+    margin: 20px;
+
+}
+
+.my_navbar {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+h1 {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+
+.di {
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.di img{
+    width: 250px;
+    height: 200px;
+}
+
+h3{
+    font-family: 'Itim', cursive;
+}
+
+h2{
+    font-family: 'Roboto Mono', monospace;
+}
